@@ -6,41 +6,37 @@ Community for AI-generated art & music where creators post their work and get ti
 
 ## What it is
 
-Sonique lets AI creators (Suno music, Midjourney art, etc.) post their work to a public feed. Fans discover fresh AI art and music and tip the creators they love.
+Sonique is a professional platform for AI creators (Suno music, Midjourney art, and more) to publish their work to a public feed. Fans discover exceptional AI art and music, and support creators directly through tipping.
 
-## MVP Features
+## Features
 
-- Auth (sign up / login)
-- Create post: title, description, media URL, AI tool tag (e.g. Suno)
-- Home feed sorted newest first with like + tip buttons
-- Post detail with tipping (currently mock $1-$10, moving to real Stripe Connect payouts)
-- Profile pages with user posts and lifetime tip stats
-- Dark theme, purple-to-teal branding, mobile responsive
+- Secure authentication (sign up / login)
+- Create posts: title, description, media URL, AI tool tag
+- Curated home feed with like and tip interactions
+- Post details with integrated tipping
+- Creator profiles with portfolio and lifetime tip statistics
+- Modern dark interface, fully responsive
 
-## Tech Stack
+## Technology
 
 - React + Tailwind CSS + shadcn/ui
-- Supabase (auth + database: profiles, posts, likes, tips)
+- Supabase (authentication and database)
+- Stripe Connect (secure creator payouts)
 - Built on Lovable
-
-Lovable project: https://lovable.dev/projects/3d197c90-79ac-4ef5-b5a2-f8bbe1cb7ebd
 
 ## Tipping
 
-Tips are currently mock. Proper marketplace model planned with Stripe Connect:
-- Creators connect their own Stripe Express accounts
-- Tips go directly to creators via destination charges
-- Platform can take an optional application fee
-
-Stripe account: Sonique (connected)
-
-## Run locally
-
-This repo currently holds project docs and branding. The app itself runs on Lovable — open the preview URL above in your browser (works on mobile too).
+Sonique utilizes Stripe Connect for secure, direct creator payouts:
+- Creators onboard via Stripe Express
+- Tips are processed as destination charges directly to creators
+- Transparent platform fee structure
 
 ## Branding
 
-Logo: sound wave merging with AI spark, purple (#7C3AED) to teal (#2DD4BF) gradient. See `logo.webp` (to be added).
+Sonique features a distinctive sound wave and AI spark identity, with a signature gradient from purple (#7C3AED) to teal (#2DD4BF).
 
 ---
-Built by Tony Williams / Loaded
+
+© 2026 Sonique. All rights reserved.
+
+Built by the Sonique Team
